@@ -5,7 +5,7 @@ def dividir(a, b):
     return a / b
 
 def calcular_porcentagem(valor, percentual):
-    return valor * percentual
+    return valor * (percentual / 100)
 
 if __name__ == "__main__":
     print("Soma de 5 + 3 =", somar(5, 3))
